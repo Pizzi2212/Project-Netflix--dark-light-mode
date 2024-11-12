@@ -1,0 +1,29 @@
+.dropdown-toggle::after {
+  border-top-color: white;
+  margin-right: 1em;
+}
+
+.col-6 img {
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transizione fluida */
+}
+.col-6 img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.Profile {
+  font-size: 5em;
+}
+
+.custom input[type='checkbox'] {
+  display: none;
+}
+
+.member {
+  background-color: #e2e2e2;
+  border: #e2e2e2;
+}
+
+.buttonW {
+  font-size: 10px;
+}

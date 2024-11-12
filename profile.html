@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Netflx</title>
+    <link rel="stylesheet" href="./Mod bootstrap/custom-bootstrap.css" />
+    <link rel="stylesheet" href="./Netflix-assets/assets/index.css" />
+    <link rel="icon" href="./Netflix-assets/assets/barra.png" />
+  </head>
+  <body class="bg-netflix">
+    <header>
+      <img
+        src="./Netflix-assets/assets/netflix_logo.png"
+        width="150px"
+        alt=""
+      />
+      <a href="index.html" class="text-decoration-none text-light"
+        >Back to home</a
+      >
+    </header>
+    <main class="d-flex justify-content-center align-items-center mt-5 pb-5">
+      <div class="container">
+        <div class="row d-flex justify-content-center">
+          <div class="col col-sm-11 col-md-9 col-lg-7 col-xl-6">
+            <div class="row">
+              <div class="col">
+                <h1 class="fw-normal text-light Profile">Edit Profile</h1>
+              </div>
+            </div>
+            <hr class="text-gray" />
+            <div class="row text-white pt-3">
+              <div class="col-12 col-xl-3">
+                <img
+                  src="./Netflix-assets/assets/avatar.png"
+                  width="150px"
+                  alt=""
+                />
+              </div>
+              <div class="col-12 col-xl-8 d-flex flex-column">
+                <h5 class="bg-gray fw-normal p-2">Strive Student</h5>
+                <p>Language:</p>
+                <div class="dropdown">
+                  <button
+                    class="btn btn-black dropdown-toggle text-light border-light"
+                    type="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Italiano
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">English</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Deutsch</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Français</a>
+                    </li>
+                  </ul>
+                </div>
+                <hr class="text-gray" />
+                <h5 class="fw-normal">Maturity Settings:</h5>
+                <a class="text-decoration-none text-light" href="#"
+                  >ALL MATURITY RATINGS</a
+                >
+                <p>Show titles of all maturity ratings for this profile.</p>
+                <button type="button" class="btn btn-outline-gray">EDIT</button>
+                <hr class="text-gray" />
+                <h5 class="fw-normal">Autoplay controls</h5>
+                <form class="d-flex flex-column" action="">
+                  <label class="text-light" for="">
+                    <input type="checkbox" />
+                    Autoplay next episode in a series on all devices
+                  </label>
+                  <label class="text-light" for="">
+                    <input type="checkbox" />
+                    Autoplay previews while browsling on all devices.
+                  </label>
+                </form>
+              </div>
+            </div>
+            <hr class="text-gray m-5" />
+            <div class="row">
+              <div class="d-md-flex justify-content-around text-center">
+                <button class="bg-light ps-5 pe-5 border-none">SAVE</button>
+                <button
+                  class="bg-netflix border border-secondary text-gray ps-5 pe-5"
+                >
+                  CANCEL
+                </button>
+                <button
+                  class="bg-netflix border border-secondary text-gray ps-5 pe-5"
+                >
+                  DELETE PROILE
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer></footer>
+  </body>
+</html>
